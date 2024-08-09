@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+table {
+    width: 400px;
+    margin: 100px 400px;
+    font-size: 18px;
+    text-align: center;
+}
+
+tr {
+    height: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #EBE3D5;
+}
+
+tr:nth-child(odd) {
+    background-color: #B0A695;
+}
+
+.table-header {
+    width: 80%;
+    border: 2px solid black;
+    background-color: #EBE3D5;
+}
+
+#container {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+select {
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 120px;
+    padding: 5px;
+    height: 35px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#buttons {
+    margin-left: 450px;
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 30px;
+    margin-right: 10px; 
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#filterButton, #clearButton {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#clearButton {
+    background-color: rgb(222, 225, 225);
+    color: black;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 40px;
+}

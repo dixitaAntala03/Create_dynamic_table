@@ -1,0 +1,7 @@
+[
+    { "id": 1, "mall": "V R mall", "address": "Surat", "category": "", "rating": "A" },
+    { "id": 2, "mall": "Rahul Raj Mall", "address": "Vadodara", "category": "", "rating": "B" },
+    { "id": 3, "mall": "Raj Imperial", "address": "Mumbai", "category": "one", "rating": "B" },
+    { "id": 4, "mall": "jane", "address": "Rajasthan", "category": "two", "rating": "C" }
+]
+
